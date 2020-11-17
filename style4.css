@@ -1,0 +1,40 @@
+body {
+  background: green;
+  position: relative;
+  height: 100vh;
+}
+body:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://img.lovepik.com/element/40017/8698.png_860.png);
+  background-size: 50px 50px;
+  background-repeat: repeat;
+  height: 50px;
+}
+body:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://i.gifer.com/Yg6D.gif);
+  background-size: 75px 50px;
+  height: 50px;
+}
+.bg-box {
+  background-image: url(https://wl-adme.cf.tsp.li/resize/728x/png/340/502/31e6915c139baeab32299d5ac4.png);
+  width: 728px;
+  height: 409px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
